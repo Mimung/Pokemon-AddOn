@@ -25,7 +25,7 @@
 
 
 
-To Install:
+## To Install:
 
 1. Open up the trade spreadsheet you want to use this AddOn for. You must install this for every spreadsheet if you have more than one.
 
