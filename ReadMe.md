@@ -1,26 +1,24 @@
-******************************************
-**         Gaironxero's Pokemon         **
-**            Add On Scripts            **
-******************************************
+<p style="text-align: center;"><font size="6">
+ ** Gaironxero's Pokemon Add On Scripts ** </font>
+</p>
+<p style="text-align: center;">
+ **  <a href="http://redd.it/367spe">Press here for the Reddit post</a> **
+</p>
 
-***************************
-**    Reddit Post Here   **
-** http://redd.it/367spe ** 
-***************************
 
 **************************************************************************
-* This Add On was made for the /r/PokemonTrades subreddit community.     *
-* The Add On is meant to make creating complex and helpful trading       *
-* spreadsheets simple and easy. It includes powerful functions,          *
-* autofilling buttons, as well as convenient buttons loaded with         *
-* common images and formulas. Check out my own trade spreadsheet example *
-* to see how the functions can simplify your spreadsheet, or simply      *
-* use my template and create your own spreadsheet from scratch.          *
+* This Add On was made for the /r/PokemonTrades subreddit community.     
+* The Add On is meant to make creating complex and helpful trading       
+* spreadsheets simple and easy. It includes powerful functions,          
+* autofilling buttons, as well as convenient buttons loaded with         
+* common images and formulas. Check out my own trade spreadsheet example 
+* to see how the functions can simplify your spreadsheet, or simply      
+* use my template and create your own spreadsheet from scratch.          
 **************************************************************************
 
-******************************************************************************
-* I would like to say thank you to TobiObito for the use of his Hidden Power *
-* Type calculator, and to the entire community for being so friendly.        *
+
+I would like to say thank you to TobiObito for the use of his Hidden Power 
+Type calculator, and to the entire community for being so friendly.        
 ******************************************************************************
 
 
@@ -39,62 +37,59 @@
 
 
 
-Usage:
+## Usage:
+
+### Pokemon Sprites
+
+This function autofills the selected cells to return Pokemon sprites referencing 2 arguments. 
+First, the national dex number. Second, whether or not the sprite should be shiny. 
+If no argument is given for the second, it is assumed to be not shiny. 
+The second argument can be as simple as 1/0, y/n, or a cell with the shiny star sprite vs an empty cell. 
+This also supports alternate forms, using the naming scheme of serebii’s images. 
+Simply add -m to a national dex number to get a mega evolution, or 479-w, 479-h, etc. for wash or heat rotom. 
 
 
-
-Pokemon Sprites
-
-    This function autofills the selected cells to return Pokemon sprites referencing 2 arguments. First, the national dex number. Second, whether or not the sprite should be shiny. If no argument is given for the second, it is assumed to be not shiny. The second argument can be as simple as 1/0, y/n, or a cell with the shiny star sprite vs an empty cell. 
-    This also supports alternate forms, using the naming scheme of serebii’s images. Simply add -m to a national dex number to get a mega evolution, or 479-w, 479-h, etc. for wash or heat rotom. 
-
-	Example:
+###  Pokeball Sprites
 	
-	Lyncarocs Shiny duskform:
-		=image(getPokemonSprite("745","[y]","d"))
-		
-	Mega Gyarados:
-		=image(getPokemonSprite("130-m","[Shiny?]","Form"))
-		
-Pokeball Sprites
-	
-	This menu has a list of Pokeball sprites, and any function will autofill all selected cells with the sprite for the Pokeball. (Listed alphabetically to find them faster.)
+This menu has a list of Pokeball sprites, and any function will autofill all selected cells with the sprite for the Pokeball. (Listed alphabetically to find them faster.)
 
-Pokemon Name
+###  okemon Name
 
-    This function autofills selected cells to take a national dex number and return the name of the Pokemon it references.
+This function autofills selected cells to take a national dex number and return the name of the Pokemon it references.
 
 
 
-Pokemon Dex Number
+###  Pokemon Dex Number
 
-    This function autofills selected cells to take the name of a Pokemon (not case sensitive) and find the national dex number for it. Note: You must spell the name correctly. (Pokemon like Farfetch’d have to be exact.)
+This function autofills selected cells to take the name of a Pokemon (not case sensitive) and find the national dex number for it. Note: You must spell the name correctly. (Pokemon like Farfetch’d have to be exact.)
 
-IV Autofill
+###  IV Autofill
 
-    This menu of functions autofill IV sets for a certain amount of rows. The columns will start from the leftmost and fill in 6, no matter what was selected. This makes it easy to select a bunch of rows by just the HP column and auto fill them all, and prevents mistakes from selecting too many or too few columns.
+This menu of functions autofill IV sets for a certain amount of rows. The columns will start from the leftmost and fill in 6, no matter what was selected. This makes it easy to select a bunch of rows by just the HP column and auto fill them all, and prevents mistakes from selecting too many or too few columns.
 
-EV Autofill
+###  EV Autofill
 	
 	
 
-Hidden Power Type
+### Hidden Power Type
 
-    This function was originally written by TobiObito and used with his permission. It has been modified slightly to work better with this AddOn. All credit for the functionality of this calculator goes to him.
-    The function itself fills selected cells with a formula that calculates the Hidden Power Type using the 6 IVs as arguments. Since the function only needs to know if the value is even or odd, any number 0-31 or E/O will suffice to complete the argument.
+This function was originally written by TobiObito and used with his permission.
+It has been modified slightly to work better with this AddOn. All credit for the functionality of this calculator goes to him.
+The function itself fills selected cells with a formula that calculates the Hidden Power Type using the 6 IVs as arguments. 
+Since the function only needs to know if the value is even or odd, any number 0-31 or E/O will suffice to complete the argument.
 
-Hyperlink
+### Hyperlink
 
-    This function autofills the selected cell with the basic Hyperlink syntax
+This function autofills the selected cell with the basic Hyperlink syntax
 	
-Icons
+### Icons
 
-	This menu lets you chose from some of the basic ingame icons. IV markings, generation marking, gender icon and more
+This menu lets you chose from some of the basic ingame icons. IV markings, generation marking, gender icon and more
 	
-Check for updates
+### Check for updates
 
-	The possibilitie to check for an updated version of the script
+The possibilitie to check for an updated version of the script
 	
-Settings
+### Settings
 
-	Creates an Settings sheet in your spreadsheet where you can set that type of pokeball or pokemon icons you want.
+Creates an Settings sheet in your spreadsheet where you can set that type of pokeball or pokemon icons you want.
