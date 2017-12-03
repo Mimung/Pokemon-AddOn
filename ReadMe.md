@@ -54,7 +54,7 @@ Simply add -m to a national dex number to get a mega evolution, or 479-w, 479-h,
 	
 This menu has a list of Pokeball sprites, and any function will autofill all selected cells with the sprite for the Pokeball. (Listed alphabetically to find them faster.)
 
-###  okemon Name
+###  Pokemon Name
 
 This function autofills selected cells to take a national dex number and return the name of the Pokemon it references.
 
