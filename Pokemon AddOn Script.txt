@@ -639,7 +639,8 @@ function getRepeatball() {
 }
 
 function getDreamball() {
-  set('=image("http://i.imgur.com/amI3uAq.png")')
+
+  set('=image(getPokeballSprite("dream"))')
 }
 
 function getHeavyball() {
