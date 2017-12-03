@@ -1,9 +1,10 @@
-<p style="text-align: center;"><font size="6">
- ** Gaironxero's Pokemon Add On Scripts ** </font>
-</p>
-<p style="text-align: center;">
+<center>
+ ** Gaironxero's Pokemon Add On Scripts ** </center>
+<center>
+
  **  <a href="http://redd.it/367spe">Press here for the Reddit post</a> **
-</p>
+</center>
+
 
 
 **************************************************************************
